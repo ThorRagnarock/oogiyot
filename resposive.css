@@ -1,0 +1,285 @@
+@media screen and (min-width:1280px) {
+    .container {
+        max-width: 1800px;
+    }
+}
+
+@media screen and (min-width:1023px) {
+
+    .navCategories {
+        /*Setting font change without shift in design*/
+        display: grid;
+        column-gap: 0px;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        justify-items: start;
+        align-items: baseline;
+    }
+
+
+    .box475:not( :hover) img {
+        filter: grayscale(0.8);
+        transition: all 3s ease-in-out;
+    }
+
+    /* TODO TRANSITIONS */
+    .box475:hover img {
+        filter: grayscale(0);
+        transition: all 0.4s ease-in-out;
+        /* transition: all 1.5s ease-out; */
+    }
+
+}
+
+@media screen and (max-width:1170px) {
+
+
+    .mainNav .container {
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navCategories {
+        display: grid;
+        column-gap: 0px;
+        grid-template-columns: 150px 150px 150px;
+        grid-template-rows: 30px 40px;
+        justify-items: center;
+        align-items: end;
+    }
+
+    .cnsgst {
+        grid-row: 2;
+        grid-column: 2;
+        font-style: italic;
+        text-decoration: underline;
+    }
+
+
+    .equipmentBoxes {
+        display: flex;
+        margin-bottom: 30px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+
+    .equipDescription {
+
+        position: absolute;
+        top: 70%;
+        right: 4%;
+        font-size: 18px;
+
+        hyphens: auto;
+        font-style: italic;
+        width: 51%;
+    }
+
+    .callToActionBtn {
+        bottom: -260%;
+    }
+
+    a.equipmentBtn {
+        text-decoration: none;
+        color: #ff7800;
+        margin-top: 25px;
+    }
+
+    .box440x360 {
+        width: 100%;
+        height: 250px;
+        background-color: rgba(200, 204, 196, 0.85);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+
+    .equipTitle {
+        font-weight: 900;
+        color: #575153;
+        font-size: 25px;
+        line-height: 25px
+    }
+
+    .box440x360 img {
+        max-width: 18rem;
+    }
+
+    .equipmentSection {
+        height: auto;
+    }
+
+    .Placeholder {
+        margin-bottom: 20px;
+    }
+
+    .footerLinks {
+        position: relative;
+        top: 20rem;
+    }
+
+    .awards-adPlacehodlers {
+        position: relative;
+        bottom: 160px;
+    }
+}
+
+
+
+@media screen and (max-width:990px) {
+    .microCopy {
+        font-size: 22px;
+    }
+
+    .box475 img {
+        filter: grayscale(0);
+        height: 180px;
+    }
+
+    .box475 {
+        filter: grayscale(0);
+
+    }
+
+    .cookieTitle {
+        margin-top: 65px;
+    }
+
+    .rateAndTime {
+        background-color: rgba(200, 204, 196, 0.4);
+        color: #3d383a;
+    }
+
+    .picTitle {
+        font-size: 20px;
+    }
+
+    .mainNav .container {
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .navCategories {
+        display: grid;
+        column-gap: 0px;
+        grid-template-columns: 150px 150px 150px;
+        grid-template-rows: 30px 40px;
+        justify-items: center;
+        align-items: end;
+    }
+
+    .cnsgst {
+        grid-row: 2;
+        grid-column: 2;
+        font-style: italic;
+        text-decoration: underline;
+    }
+
+    .equipmentText {
+        margin-top: 25px;
+        padding-left: 25px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .box475 img {
+        filter: grayscale(0);
+    }
+
+    .microCopy {
+        font-style: italic;
+        color: #575153;
+        font-size: 16px;
+        margin-left: 10px;
+    }
+
+    .navCategories {
+        margin-top: 20px;
+    }
+
+    .mainNavItem {
+        color: #c63500;
+        font-weight: 600;
+        background-color: #e2e4df69;
+        padding: 5px;
+        border-radius: 6px;
+        box-shadow: 1px 1px 5px #e2e4df;
+    }
+
+    .mainLogo img {
+        width: 1200px;
+        height: auto;
+        filter: drop-shadow(-1px 7px 7px rgba(0, 0, 0, 0.37));
+        margin-top: 50px;
+    }
+
+    .pixNav {
+        display: flex;
+        justify-content: flex-end;
+        align-items: baseline;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .pixMenu {
+        width: 455px;
+        height: 53px;
+        margin-top: 30px;
+        border-bottom: 5px solid #c63500;
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        align-items: center;
+        justify-items: stretch;
+        align-content: space-between;
+    }
+
+    .equipTitle {
+        line-height: 35px;
+        margin-bottom: -24px;
+    }
+
+
+    .equipDescription {
+        font-size: 12px;
+        margin-left: 12rem;
+        margin-bottom: 10px;
+        padding-right: 1.2rem;
+    }
+
+    .callToActionBtn {
+        bottom: -290%
+    }
+
+
+    .footerLinks {
+        position: relative;
+        top: 28rem;
+        font-size: .7rem;
+        justify-content: space-between;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .awards-adPlacehodlers {
+        bottom: 260px;
+    }
+
+    nav.footerContactUs {
+        text-align: left;
+        border-left: 0.5px solid #727272;
+        padding-left: 11px;
+    }
+
+    nav.footerInformation {
+        text-align: right;
+        border-right: 0.5px solid #727272;
+        padding-right: 11px;
+    }
+}

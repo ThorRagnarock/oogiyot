@@ -1,0 +1,99 @@
+
+/*
+colors
+
+OogOffWhite: #f8f8f8 (header background)
+OogOrange:  #ff7800
+OogGreen:   #829a66 130, 154, 102, 0.5
+OogGrnBG:   #cdd1ca (for the top footer)
+OogGray:    #333333 (for website top and bottom "Frames")
+OogBurgundy:#c63500
+OogGrayGreen: #c8ccc4 200, 204, 196, 0.7
+OogText-Black: #575153
+OogText-Gray: #727272 (for footer lists)
+Black: #000
+White: #fff
+
+
+/******************************************************/
+/*
+Font: Nunito family (a futura variant)
+----------------------------------------------
+MiniLogo microCopy: italic 28px OogText-Black
+Equipment microCopy: italic 28px OogText-Black
+
+social bottons: fontAwesom 36px OogOrange
+
+Main nav-link: semiBold 24px OogBurgundy
+Main nav-Selected:extraBold 24px OogBurgandy (also include down arrow below)
+Main drop-down menuElements: semiBold 18px OogBurgundy
+----------------------------------------------
+pixSection nav-selected: extraBold 24px OogBurgandy
+pixSection nav-link:  semiBold 24px OogText-Black
+
+pixSection prep-time: title: bold 20px OogText-Black
+pixSection prep-time(regularSpan): regular
+
+pixSection picTitle: extraBold 36px OogText-Black
+pixSection picTitle(semiBoldSpan): semiBold 
+----------------------------------------------
+equipmentSection Title: extraBold 48px OogText-Black
+equipmentSection(lightSpan): light 
+
+equipmentSection content: regular 18px OogText-black
+equipmentSection callToActionBtn: extraboldItalic 20px white
+----------------------------------------------
+footerLinks Title: bold 13px oogText-Black
+footerLinks items: regular 14px oogText-Gray
+----------------------------------------------
+awards squares: extraBold 34px white
+award squares(regularSpan) : regular
+
+bottomFrame: regular 14px white
+/******************************************************/
+
+fonts: 
+
+light
+regular
+italic
+
+semiBold
+bold
+bold italic
+
+extraBold
+
+
+
+
+
+/*
+sizes
+
+padding between boxes is 30px
+
+rectangle-orange: width:60px, height: 151px
+
+
+header/footer "frames": width 100%, height: 45px
+
+main logo: width: 1764px, height: 353px
+----------------------------------------------
+header height (from "frame" down:) 765px
+header background image (decorative image): width 1175px, height: 810px
+----------------------------------------------
+pixSection nav line: width 1110px, height: 6px
+pixSection item(picture+info): 540px^2
+pixSection item description: width 540px (100% ??) height: 90px
+pixSection item prepTime: width 540px (100% ??) height 53px
+----------------------------------------------
+equipmentSection - (here comes rectangle orange)
+equipmentSection Box: width 660px height 540px
+equipmentSection botton(not including outline): width 180px height: 61px
+----------------------------------------------
+Main(Top) Footer: width: 100%, height: 595px
+Main(Top) footter AdPlaceHolders: width: 540px height: 190px
+
+
+*/
